@@ -1,0 +1,7 @@
+transform
+glsprite
+9 3 1.0 0 movinglava.bmp
+body
+0.0 0 rectangle 0.5 0.5
+enemystate
+6 0.5 10 3

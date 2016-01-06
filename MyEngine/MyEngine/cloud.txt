@@ -1,0 +1,3 @@
+transform 
+glsprite
+1 1 cloud.bmp

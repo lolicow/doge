@@ -1,0 +1,7 @@
+transform
+glsprite
+1 1 0.5 0 redbone.bmp
+body
+0.0 1 rectangle 0.1 0.1
+enhancement
+4 1

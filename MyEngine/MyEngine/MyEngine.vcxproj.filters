@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="basic">
+      <UniqueIdentifier>{f763717f-510b-4c3b-ba98-26b8fa7b9722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameobject">
+      <UniqueIdentifier>{d1624b37-ca07-48f1-9a92-cc81fd036552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager">
+      <UniqueIdentifier>{4d5fc78b-23bd-4323-a60d-c754dcca056a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{d5823643-65c2-4db6-aa7a-4b129a126752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="message">
+      <UniqueIdentifier>{59d6e989-9868-4d70-bd7a-3e703caaf863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{56894552-308b-4bf2-9f97-d2d719dcaec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{3b8cff69-2c02-4b6f-bba4-fa6c64f77a4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobjectmanager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="GLsprite.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="Math2D.c">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2D.c">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.c">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobjectfactory.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="message.cpp">
+      <Filter>message</Filter>
+    </ClCompile>
+    <ClCompile Include="body.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="collisionmanager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="collisionmessage.cpp">
+      <Filter>message</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicmanager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="textmanager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="playerstate.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="chaos.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="patrol.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="FRC.CPP">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="enhancement.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="textmessage.cpp">
+      <Filter>message</Filter>
+    </ClCompile>
+    <ClCompile Include="projectile.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="uimanager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Component.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobjectmanager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="GLsprite.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="Math2D.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2D.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobjectfactory.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>message</Filter>
+    </ClInclude>
+    <ClInclude Include="body.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionmanager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionmessage.h">
+      <Filter>message</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicmanager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="textmanager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="playerstate.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="chaos.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="patrol.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="FRC.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="enhancement.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="textmessage.h">
+      <Filter>message</Filter>
+    </ClInclude>
+    <ClInclude Include="projectile.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="uimanager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2DTEXT.frag">
+      <Filter>graphics</Filter>
+    </None>
+    <None Include="2DTEXT.vert">
+      <Filter>graphics</Filter>
+    </None>
+    <None Include="2DUI.frag">
+      <Filter>graphics</Filter>
+    </None>
+    <None Include="2DUI.vert">
+      <Filter>graphics</Filter>
+    </None>
+    <None Include="2DBASIC.frag">
+      <Filter>graphics</Filter>
+    </None>
+    <None Include="2DBASIC.vert">
+      <Filter>graphics</Filter>
+    </None>
+    <None Include="2DDEBUG.frag">
+      <Filter>graphics</Filter>
+    </None>
+    <None Include="2DDEBUG.vert">
+      <Filter>graphics</Filter>
+    </None>
+    <None Include="level1.csv">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="level1debug.csv">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="enemy2.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="grass.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="ground.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="player.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="stone.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="background.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="camera.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="enemy.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="box.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="claw.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="bonejump.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="lava.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="boneattack.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="boneHP.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="stonesmall.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="home.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="ball.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="explosion1.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="dust.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="enemy3.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="lethallava.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="spike.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="movinglava.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="dogesun.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="dogetroll.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="dogesweat.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="hpbarlost.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="jumpbar.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="hpbar.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="bar.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="uilava.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="uilavabase.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="boneblack.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="door.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="doornobody.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="stonebian.txt">
+      <Filter>resource</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyEngine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bone.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

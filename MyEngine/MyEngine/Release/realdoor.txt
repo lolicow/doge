@@ -1,0 +1,7 @@
+transform
+glsprite
+1 1 0.5 0 door.bmp
+body
+0.0 1 rectangle 0.3 0.5
+enhancement
+6 1

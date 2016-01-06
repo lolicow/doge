@@ -1,0 +1,7 @@
+transform
+glsprite
+11 4 0.2 0 dust.bmp
+body
+0.0 1 rectangle 0.05 0.05
+effect
+1 12

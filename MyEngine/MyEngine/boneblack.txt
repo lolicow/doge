@@ -1,0 +1,7 @@
+transform
+glsprite
+1 1 0.5 0 yellowbone.bmp
+body
+0.0 1 rectangle 0.1 0.1
+enhancement
+0 5

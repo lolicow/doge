@@ -1,0 +1,51 @@
+﻿Build started 12/15/2015 5:54:54 PM.
+     1>Project "D:\CS529\Engine\Engine\MyEngine\MyEngine\MyEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\ttf\include\freetype2 /I"..\..\SDL2-2.0.3\include" /I"..\..\glew-1.13.0\include\GL" /I..\..\glut3.7 /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CS529\Engine\Engine\MyEngine\Release\MyEngine.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\ttf\lib /LIBPATH:"..\..\SDL2-2.0.3\lib\x86" /LIBPATH:"..\..\glew-1.13.0\lib\Release\Win32" /LIBPATH:..\..\glut3.7 freetype.lib glut32.lib glut.lib glew32.lib glew32s.lib SDL2main.lib SDL2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CS529\Engine\Engine\MyEngine\Release\MyEngine.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CS529\Engine\Engine\MyEngine\Release\MyEngine.lib" /MACHINE:X86 /SAFESEH:NO Release\MyEngine.res
+         Release\body.obj
+         Release\camera.obj
+         Release\chaos.obj
+         Release\collisionmanager.obj
+         Release\collisionmessage.obj
+         Release\Component.obj
+         Release\controller.obj
+         Release\effect.obj
+         Release\enhancement.obj
+         Release\FRC.obj
+         Release\gameobject.obj
+         Release\gameobjectfactory.obj
+         Release\gameobjectmanager.obj
+         Release\GLsprite.obj
+         Release\graphicmanager.obj
+         Release\InputManager.obj
+         Release\main.obj
+         Release\material.obj
+         Release\Math2D.obj
+         Release\Matrix2D.obj
+         Release\mesh.obj
+         Release\message.obj
+         Release\patrol.obj
+         Release\PhysicsManager.obj
+         Release\playerstate.obj
+         Release\projectile.obj
+         Release\ResourceManager.obj
+         Release\shader.obj
+         Release\sprite.obj
+         Release\textmanager.obj
+         Release\textmessage.obj
+         Release\texture.obj
+         Release\transform.obj
+         Release\uimanager.obj
+         Release\Vector2D.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+         Generating code
+         Finished generating code
+         MyEngine.vcxproj -> D:\CS529\Engine\Engine\MyEngine\Release\MyEngine.exe
+     1>Done Building Project "D:\CS529\Engine\Engine\MyEngine\MyEngine\MyEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.24

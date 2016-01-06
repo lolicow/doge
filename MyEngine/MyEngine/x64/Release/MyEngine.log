@@ -1,0 +1,67 @@
+﻿Build started 12/15/2015 2:59:53 PM.
+     1>Project "D:\CS529\Engine\Engine\MyEngine\MyEngine\MyEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt body.cpp camera.cpp chaos.cpp collisionmanager.cpp collisionmessage.cpp Component.cpp controller.cpp effect.cpp enhancement.cpp FRC.CPP gameobject.cpp gameobjectfactory.cpp gameobjectmanager.cpp GLsprite.cpp graphicmanager.cpp InputManager.cpp main.cpp material.cpp mesh.cpp message.cpp patrol.cpp PhysicsManager.cpp playerstate.cpp projectile.cpp ResourceManager.cpp shader.cpp sprite.cpp textmanager.cpp textmessage.cpp texture.cpp transform.cpp uimanager.cpp
+         body.cpp
+     1>d:\cs529\engine\engine\myengine\myengine\transform.h(4): fatal error C1083: Cannot open include file: 'SDL_rect.h': No such file or directory
+         camera.cpp
+     1>camera.cpp(2): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+         chaos.cpp
+     1>d:\cs529\engine\engine\myengine\myengine\transform.h(4): fatal error C1083: Cannot open include file: 'SDL_rect.h': No such file or directory
+         collisionmanager.cpp
+     1>collisionmanager.cpp(27): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+     1>collisionmanager.cpp(37): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+     1>collisionmanager.cpp(144): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>collisionmanager.cpp(150): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         collisionmessage.cpp
+         Component.cpp
+         controller.cpp
+     1>d:\cs529\engine\engine\myengine\myengine\InputManager.h(5): fatal error C1083: Cannot open include file: 'SDL_stdinc.h': No such file or directory
+         effect.cpp
+         enhancement.cpp
+         FRC.CPP
+     1>d:\cs529\engine\engine\myengine\myengine\FRC.h(4): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         gameobject.cpp
+         gameobjectfactory.cpp
+     1>d:\cs529\engine\engine\myengine\myengine\sprite.h(5): fatal error C1083: Cannot open include file: 'SDL_surface.h': No such file or directory
+         gameobjectmanager.cpp
+         GLsprite.cpp
+     1>d:\cs529\engine\engine\myengine\myengine\shader.h(4): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+         graphicmanager.cpp
+         InputManager.cpp
+     1>d:\cs529\engine\engine\myengine\myengine\InputManager.h(5): fatal error C1083: Cannot open include file: 'SDL_stdinc.h': No such file or directory
+         main.cpp
+     1>main.cpp(2): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         material.cpp
+         mesh.cpp
+     1>mesh.cpp(2): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+         message.cpp
+         Compiling...
+         patrol.cpp
+     1>d:\cs529\engine\engine\myengine\myengine\transform.h(4): fatal error C1083: Cannot open include file: 'SDL_rect.h': No such file or directory
+         PhysicsManager.cpp
+         playerstate.cpp
+     1>d:\cs529\engine\engine\myengine\myengine\textmanager.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         projectile.cpp
+     1>projectile.cpp(26): warning C4477: 'fscanf_s' : format string '%255s' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+         projectile.cpp(26): note: this argument is used as a buffer size
+         ResourceManager.cpp
+     1>d:\cs529\engine\engine\myengine\myengine\ResourceManager.h(5): fatal error C1083: Cannot open include file: 'SDL_surface.h': No such file or directory
+         shader.cpp
+     1>d:\cs529\engine\engine\myengine\myengine\shader.h(4): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+         sprite.cpp
+     1>d:\cs529\engine\engine\myengine\myengine\sprite.h(5): fatal error C1083: Cannot open include file: 'SDL_surface.h': No such file or directory
+         textmanager.cpp
+     1>d:\cs529\engine\engine\myengine\myengine\textmanager.h(4): fatal error C1083: Cannot open include file: 'ft2build.h': No such file or directory
+         textmessage.cpp
+         texture.cpp
+     1>texture.cpp(3): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+         transform.cpp
+     1>d:\cs529\engine\engine\myengine\myengine\transform.h(4): fatal error C1083: Cannot open include file: 'SDL_rect.h': No such file or directory
+         uimanager.cpp
+     1>d:\cs529\engine\engine\myengine\myengine\transform.h(4): fatal error C1083: Cannot open include file: 'SDL_rect.h': No such file or directory
+     1>Done Building Project "D:\CS529\Engine\Engine\MyEngine\MyEngine\MyEngine.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.80

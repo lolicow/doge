@@ -1,0 +1,10 @@
+transform
+glsprite
+9 3 0.5 0 dogerun.bmp
+controller
+1
+body
+1.0 0 rectangle 0.15 0.13
+playerstate
+1 14 0
+

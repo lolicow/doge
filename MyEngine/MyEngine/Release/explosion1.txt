@@ -1,0 +1,7 @@
+transform
+glsprite
+16 4 0.5 0 explosion.bmp
+body
+0.0 1 rectangle 0.05 0.05
+effect
+1 30

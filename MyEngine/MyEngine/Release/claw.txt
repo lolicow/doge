@@ -1,0 +1,7 @@
+transform
+glsprite
+4 2 0.5 0 claw.bmp
+body
+0.0 1 rectangle 0.1 0.1
+effect
+0 15

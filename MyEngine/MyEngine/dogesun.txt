@@ -1,0 +1,3 @@
+transform 
+glsprite
+4 2 0.5 1 dogesun.bmp

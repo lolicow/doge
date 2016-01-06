@@ -1,0 +1,47 @@
+﻿Build started 12/13/2015 3:26:14 AM.
+     1>Project "D:\CS529\Engine\Engine\MyEngine\MyEngine\MyEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\ttf\include\freetype2 /I"..\..\SDL2-2.0.3\include" /I"..\..\glew-1.13.0\include\GL" /I..\..\glut3.7 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CS529\Engine\Engine\MyEngine\Debug\MyEngine.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\ttf\lib /LIBPATH:"..\..\SDL2-2.0.3\lib\x86" /LIBPATH:"..\..\glew-1.13.0\lib\Release\Win32" /LIBPATH:..\..\glut3.7 freetype.lib glut32.lib glut.lib glew32.lib glew32s.lib SDL2main.lib SDL2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CS529\Engine\Engine\MyEngine\Debug\MyEngine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CS529\Engine\Engine\MyEngine\Debug\MyEngine.lib" /MACHINE:X86 Debug\body.obj
+         Debug\camera.obj
+         Debug\chaos.obj
+         Debug\collisionmanager.obj
+         Debug\collisionmessage.obj
+         Debug\Component.obj
+         Debug\controller.obj
+         Debug\effect.obj
+         Debug\enhancement.obj
+         Debug\FRC.obj
+         Debug\gameobject.obj
+         Debug\gameobjectfactory.obj
+         Debug\gameobjectmanager.obj
+         Debug\GLsprite.obj
+         Debug\graphicmanager.obj
+         Debug\InputManager.obj
+         Debug\main.obj
+         Debug\material.obj
+         Debug\Math2D.obj
+         Debug\Matrix2D.obj
+         Debug\mesh.obj
+         Debug\message.obj
+         Debug\patrol.obj
+         Debug\PhysicsManager.obj
+         Debug\playerstate.obj
+         Debug\projectile.obj
+         Debug\ResourceManager.obj
+         Debug\shader.obj
+         Debug\sprite.obj
+         Debug\textmanager.obj
+         Debug\textmessage.obj
+         Debug\texture.obj
+         Debug\transform.obj
+         Debug\uimanager.obj
+         Debug\Vector2D.obj
+         MyEngine.vcxproj -> D:\CS529\Engine\Engine\MyEngine\Debug\MyEngine.exe
+     1>Done Building Project "D:\CS529\Engine\Engine\MyEngine\MyEngine\MyEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.40
