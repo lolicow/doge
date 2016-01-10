@@ -1,3 +1,5 @@
+By the regulation of Digipen Institute of Technology, this property belongs to Digipen.
+
 1.folder structure:
 since it's a bit messy I put this as the 1st thing to read. so the top level folder contains all libraries I used(or tried to use) and 
 MyEngine is the folder to the actual solution.
